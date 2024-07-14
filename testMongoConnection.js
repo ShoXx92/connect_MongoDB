@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('').then(() => {
+mongoose.connect('mongodb://shoxonbot:shoxonbot2024@194.107.126.5:27017/synetix_development_shoxon').then(() => {
   console.log('Connected to MongoDB!');
   process.exit(0); // Exits the process successfully
 }).catch(err => {
