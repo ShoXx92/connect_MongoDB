@@ -21,7 +21,7 @@ Follow these steps to set up and run the project.
 
 1. **Clone the repository:**
     ```sh
-    git clone <https://github.com/ShoXx92/connect_MongoDB>
+    git clone https://github.com/ShoXx92/connect_MongoDB
     cd connect_MongoDB
     ```
 
@@ -36,7 +36,7 @@ Update the connection string in the `index.js` file if your MongoDB server is ru
 ```javascript
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/database_testbots').then(() => {
+mongoose.connect('#MongoDB URL Link here').then(() => {
   console.log('Connected to MongoDB!');
   process.exit(0); // Exits the process successfully
 }).catch(err => {
