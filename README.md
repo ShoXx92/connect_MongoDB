@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="/content/TextLogo.png">
+    <img src="https://imgur.com/VA57evz.png">
     <br>
     <p>connect_MongoDB</p>
 </h1>
